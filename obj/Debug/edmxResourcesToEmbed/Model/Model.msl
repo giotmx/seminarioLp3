@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbPicAquilaModelStoreContainer" CdmEntityContainer="DbPicAquilaEntities">
+    <EntitySetMapping Name="Produtos">
+      <EntityTypeMapping TypeName="DbPicAquilaModel.Produto">
+        <MappingFragment StoreEntitySet="Produtos">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Descrição" ColumnName="Descrição" />
+          <ScalarProperty Name="Preço" ColumnName="Preço" />
+          <ScalarProperty Name="Estoque" ColumnName="Estoque" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
